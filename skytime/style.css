@@ -44,7 +44,7 @@ section.times h2 :before {
   display: none;
   position: absolute;
   left: 200px;
-  top: 50%;
+  top: 70%;
   text-align: center;
 }
 .t1 {
@@ -118,6 +118,13 @@ line-height: 61px;
 letter-spacing: 0.365em;
 }
 .t5 {
-  position: relative;
-  margin-right: 900px;
+  position: absolute;
+width: 628px;
+height: 138px;
+left: 3%;
+top: 65%;
+
+font-family: Rammetto One;
+font-size: 64px;
+line-height: 108px;
 }
