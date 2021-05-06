@@ -147,8 +147,9 @@ section.times h2 :before {
   position: absolute;
   width: 628px;
   height: 138px;
-  left: 25%;
-  margin-left: 440px;
+  left: 15%;
+  margin-left: 510px;
+  margin-top: 30px;
 
   font-family: "Red Hat";
   font-size: 64px;
@@ -180,24 +181,36 @@ section.times h2 :before {
 }
 
 @media only screen and (max-width: 640px) {
-  .t3,
-  .t7{
-   display: none;
-  }
-
-  .n1,
-  .n2{
+  .t3{
     position: absolute;
     width: 65px;
     height: 337px;
+    margin-top: -580px;
+    margin-left: -50px;
     
     font-family: "Red Hat";
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 41px;
     text-align: center;
-    letter-spacing: 0.875em;
+    letter-spacing: 0.575em;
+  }
+
+  .t7{
+    position: absolute;
+    width: 65px;
+    height: 337px;
+    margin-top: -580px;
+    margin-left: -70px;
+    
+    font-family: "Red Hat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.575em;
   }
 
   .t1{
@@ -232,7 +245,7 @@ letter-spacing: 0.365em;
     position: flex;
 width: 237px;
 height: 39px;
-left: -287px;
+left: -357px;
 top: 110px;
 
 font-family: "Red Hat";
