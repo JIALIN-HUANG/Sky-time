@@ -1,0 +1,68 @@
+body {
+ 
+  width: 100%;
+  background: linear-gradient(90deg, #77BCEE 1.56%, rgba(255, 255, 255, 0) 100%), #CCE2F2;
+
+}
+section{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 44px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+section.time.div {
+  padding: 0% 24px 36px 24px 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.times h2 :before {
+  content: "";
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  margin: 0 0.5em 0 0;
+  vertical-align: -0.05em;
+  transition: background-color 0.5s;
+}
+
+.newyork {
+  position: absolute;
+ 
+  top: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shanghai,
+.vancouver,
+.tokyo,
+.item {
+  display: none;
+  position: absolute;
+  left: 200px;
+  top: 50%;
+  text-align: center;
+}
+.t1{
+	font-size: 45px;
+	font-weight: bold;
+}
+.t2{
+	font-size: 28px;
+	font-weight: bold;
+	margin-left: 60%;
+}
+.t3{
+	letter-spacing: 100px;
+}
+.t4{
+	letter-spacing: 200px;
+}
+.t5{
+	position: relative;
+	margin-right: 900px;
+	
+}
