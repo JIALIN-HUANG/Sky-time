@@ -7,9 +7,7 @@ var random = Math.floor(Math.random() * $(".item").length);
   locations.forEach((location) => {
     const outputContainer = location.querySelector("output");
     const timezone = location.getAttribute("data-timezone");
-
     const now = luxon.DateTime.now().setZone(timezone);
-
     outputContainer.innerHTML = now.toFormat("HH:mm:ss");
      var timehome=now.toFormat("HH");
   // alert(timehome)
@@ -58,7 +56,8 @@ var random = Math.floor(Math.random() * $(".item").length);
 };
 
 updateTimes();
-
+var n = Math.floor(Math.random() * Arr.length);
+$(".bo").css("background", Arr[n]);
 setInterval(function () {
   updateTimes();
 }, 1000);
