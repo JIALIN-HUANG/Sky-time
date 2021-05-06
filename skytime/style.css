@@ -1,14 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
 body {
- 
   width: 100%;
-  background: linear-gradient(90deg, #77BCEE 1.56%, rgba(255, 255, 255, 0) 100%), #CCE2F2;
-
+  height: 100vh;
+  background: linear-gradient(90deg, #77bcee 1.56%, rgba(255, 255, 255, 0) 100%),
+    #cce2f2;
 }
-section{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 44px;
-	font-weight: 500;
-	line-height: 1.5;
+section {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 section.time.div {
@@ -30,7 +31,7 @@ section.times h2 :before {
 
 .newyork {
   position: absolute;
- 
+
   top: 50%;
   text-align: center;
   margin-bottom: 20px;
@@ -46,23 +47,77 @@ section.times h2 :before {
   top: 50%;
   text-align: center;
 }
-.t1{
-	font-size: 45px;
-	font-weight: bold;
+.t1 {
+  position: absolute;
+  width: 422px;
+  height: 218px;
+
+  left: 5%;
+  font-family: Rammetto One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 128px;
 }
-.t2{
-	font-size: 28px;
-	font-weight: bold;
-	margin-left: 60%;
+.t2 {
+  position: absolute;
+  width: 434px;
+  height: 150px;
+  left: 70%;
+  top: 5%;
+
+  font-family: "Rammetto One", cursive;
+  /* font-style: normal;
+  font-weight: normal; */
+  font-size: 30px;
+  line-height: 200%;
+  text-align: right;
+  letter-spacing: 0.365em;
 }
-.t3{
-	letter-spacing: 100px;
+.t3 {
+  position: absolute;
+width: 1218px;
+height: 162px;
+top: 190%;
+
+
+font-family: "Rammetto One";
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 162px;
+letter-spacing: 0.595em;
+
 }
-.t4{
-	letter-spacing: 200px;
+.t4 {
+  position: absolute;
+  width: 1218px;
+  height: 162px;
+  top: 190%;
+  
+  
+  font-family: "Rammetto One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 162px;
+  letter-spacing: 0.595em;
 }
-.t5{
-	position: relative;
-	margin-right: 900px;
-	
+.sky{
+  position: absolute;
+width: 342px;
+height: 62px;
+left: 82px;
+top: 286px;
+
+font-family: Rammetto One;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 61px;
+letter-spacing: 0.365em;
+}
+.t5 {
+  position: relative;
+  margin-right: 900px;
 }
