@@ -121,10 +121,12 @@ letter-spacing: 0.365em;
   position: absolute;
 width: 628px;
 height: 138px;
-left: 3%;
-top: 65%;
+left: 15%;
+margin-left: 110px;
+
 
 font-family: Rammetto One;
 font-size: 64px;
 line-height: 108px;
+text-align: left;
 }
