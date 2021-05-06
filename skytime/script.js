@@ -59,6 +59,7 @@ updateTimes();
 var n = Math.floor(Math.random() * Arr.length);
 $(".bo").css("background", Arr[n]);
 setInterval(function () {
+  bg.classList.add(getTimeOfDay(timezone));
   updateTimes();
 }, 1000);
 

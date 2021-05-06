@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&display=swap");
+@font-face {
+  font-family: "Red Hat";
+  src: url("/Red\ Hat\ Text.ttf") format("truetype");
+}
+
+.n1,
+.n2,
+.n3,
+.n4{
+  display: none;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -54,7 +66,7 @@ section.times h2 :before {
   height: 218px;
 
   left: 5%;
-  font-family: Rammetto One;
+  font-family: "Red Hat";
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
@@ -67,9 +79,9 @@ section.times h2 :before {
   left: 70%;
   top: 5%;
 
-  font-family: "Rammetto One", cursive;
-  /* font-style: normal;
-  font-weight: normal; */
+  font-family: "Red Hat";
+  /* font-style: normal;*/
+  font-weight: 200px; 
   font-size: 30px;
   line-height: 200%;
   text-align: right;
@@ -77,76 +89,173 @@ section.times h2 :before {
 }
 .t3 {
   position: absolute;
-width: 1218px;
-height: 162px;
-top: 190%;
+  width: 1218px;
+  height: 162px;
+  top: 10%;
 
+  font-family: "Red Hat";
+  font-style: normal;
+  font-weight: 120px;
+  font-size: 120px;
+  line-height: 6px;
+  letter-spacing: 0.595em;
+  text-align: center;
+  margin-left: 76px;
+}
+.t7{
+  position: absolute;
+  width: 1218px;
+  height: 162px;
+  top: 10%;
 
-font-family: "Rammetto One";
-font-style: normal;
-font-weight: normal;
-font-size: 96px;
-line-height: 162px;
-letter-spacing: 0.595em;
-
+  font-family: "Red Hat";
+  font-style: normal;
+  font-weight: 120px;
+  font-size: 120px;
+  line-height: 6px;
+  letter-spacing: 0.595em;
+  text-align: center;
+  margin-left: -20px;
 }
 .t4 {
   position: absolute;
   width: 1218px;
   height: 162px;
   top: 190%;
-  
-  
-  font-family: "Rammetto One";
+
+  font-family: "Red Hat";
   font-style: normal;
   font-weight: normal;
   font-size: 96px;
   line-height: 162px;
   letter-spacing: 0.595em;
 }
-.sky{
+.sky {
   position: fixed;
-width: 342px;
-height: 62px;
-left: 82px;
-top: 286px;
+  width: 342px;
+  height: 62px;
+  left: 82px;
+  top: 286px;
 
-font-family: 'Noto Serif SC', serif;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 61px;
-letter-spacing: 0.365em;
+  font-family: "Noto Serif SC", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 61px;
+  letter-spacing: 0.365em;
 }
 .t5 {
   position: absolute;
-width: 628px;
-height: 138px;
-left: 25%;
-margin-left: 380px;
+  width: 628px;
+  height: 138px;
+  left: 25%;
+  margin-left: 440px;
 
-
-font-family: Rammetto One;
-font-size: 64px;
-line-height: 108px;
-text-align: left;
+  font-family: "Red Hat";
+  font-size: 64px;
+  line-height: 448px;
+  text-align: left;
 }
 
-.t6{
-position: fixed;
-width: 434px;
-height: 150px;
-/* right: 45%; */
-margin-left: 890px;
-margin-top: -600px;
+.t6 {
+  position: fixed;
+  width: 434px;
+  height: 150px;
+  /* right: 45%; */
+  margin-left: 890px;
+  margin-top: -600px;
 
-font-family: 'Rammetto One', cursive;
+  font-family: "Red Hat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 60px;
+  /* or 200% */
+
+  text-align: right;
+  letter-spacing: 0.365em;
+}
+
+.bo[data-timeofday="night"] {
+  color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+  .t3,
+  .t7{
+   display: none;
+  }
+
+  .n1,
+  .n2{
+    position: absolute;
+    width: 65px;
+    height: 337px;
+    
+    font-family: "Red Hat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.875em;
+  }
+
+  .t1{
+    position: absolute;
+width: 402px;
+height: 218px;
+left: 55px;
+top: 658px;
+
+font-family: "Red Hat";
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 54px;
+  }
+  .sky{
+    position: absolute;
+width: 342px;
+height: 62px;
+left: 55px;
+top: 780px;
+
+font-family: "Red Hat";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 41px;
+letter-spacing: 0.365em;
+  }
+
+  .t5{
+    position: flex;
+width: 237px;
+height: 39px;
+left: -287px;
+top: 110px;
+
+font-family: "Red Hat";
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
-line-height: 60px;
-/* or 200% */
+line-height: 30px;
+text-align: center;
+  }
 
+  .t2{
+    position: flex;
+left: 106px;
+top: 827px;
+
+font-family: "Red Hat";
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 50px;
+/* or 268% */
 text-align: right;
-letter-spacing: 0.365em;
+letter-spacing: 0.05em;
+  }
 }

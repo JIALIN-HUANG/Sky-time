@@ -59,6 +59,7 @@ const locations = document.querySelectorAll('[data-timezone]');
 
  	const bg = document.querySelector('.bo');
  	const timezone = randomLocation.getAttribute('data-timezone');
+     bg.setAttribute('data-timeofday', getTimeOfDay(timezone))
  	bg.style.background = getRandomItem(bgColors[getTimeOfDay(timezone)]);
  }
 
