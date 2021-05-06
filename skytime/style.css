@@ -86,7 +86,8 @@ section.times h2 :before {
   text-align: right;
   letter-spacing: 0.365em;
 }
-.t3 {
+.t3,
+.t9 {
   position: absolute;
   width: 1218px;
   height: 162px;
@@ -183,10 +184,26 @@ section.times h2 :before {
 @media only screen and (max-width: 640px) {
   .t3{
     position: absolute;
-    width: 65px;
+    width:165px;
     height: 337px;
     margin-top: -580px;
     margin-left: -50px;
+    
+    font-family: "Red Hat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.575em;
+  }
+
+  .t9{
+    position: absolute;
+    width:765px;
+    height: 337px;
+    margin-top: -580px;
+    margin-left: -280px;
     
     font-family: "Red Hat";
     font-style: normal;
