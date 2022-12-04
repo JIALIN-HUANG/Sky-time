@@ -13,7 +13,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: linear-gradient(90deg, #77bcee 1.56%, rgba(255, 255, 255, 0) 100%),
     #cce2f2;
@@ -44,7 +44,7 @@ section.times h2 :before {
 .newyork {
   position: absolute;
 
-  top: 50%;
+  top: 50vw;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -54,10 +54,10 @@ section.times h2 :before {
 .tokyo,
 .item {
   display: none;
-  position: absolute;
+  position: fixed;
   left: 200px;
-  top: 70%;
-  text-align: center;
+  top: 35vw;
+  align-items: center;
 }
 .t1 {
   position: fixed;
@@ -88,11 +88,9 @@ section.times h2 :before {
 }
 .t3,
 .t9 {
-  position: absolute;
-  width: 1218px;
-  height: 162px;
-  top: 10%;
-
+  position: static;
+  top: 30px;
+ 
   font-family: "Red Hat";
   font-style: normal;
   font-weight: 120px;
@@ -103,10 +101,8 @@ section.times h2 :before {
   margin-left: 76px;
 }
 .t7{
-  position: absolute;
-  width: 1218px;
-  height: 162px;
-  top: 10%;
+  position: static;
+  top: 30px;
 
   font-family: "Red Hat";
   font-style: normal;
@@ -118,9 +114,7 @@ section.times h2 :before {
   margin-left: -20px;
 }
 .t4 {
-  position: absolute;
-  width: 1218px;
-  height: 162px;
+  position: static;
   top: 190%;
 
   font-family: "Red Hat";
@@ -145,17 +139,13 @@ section.times h2 :before {
   letter-spacing: 0.365em;
 }
 .t5 {
-  position: absolute;
-  width: 628px;
-  height: 138px;
-  left: 15%;
-  margin-left: 510px;
+  position: fixed;
   margin-top: 30px;
 
   font-family: "Red Hat";
   font-size: 64px;
   line-height: 448px;
-  text-align: left;
+  text-align: center;
 }
 
 .t6 {
@@ -179,6 +169,7 @@ section.times h2 :before {
 
 .bo[data-timeofday="night"] {
   color: #fff;
+  max-height: 800px;
 }
 
 @media only screen and (max-width: 640px) {

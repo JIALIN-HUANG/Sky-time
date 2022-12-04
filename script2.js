@@ -16,6 +16,7 @@ const locations = document.querySelectorAll('[data-timezone]');
  		'linear-gradient(180deg, #0B8CEA 1.56%, rgba(255, 255, 255, 0) 100%), #97C9ED',
  		'linear-gradient(180deg, #77BCEE 1.56%, rgba(255, 255, 255, 0) 100%), #CCE2F2'
  	],
+
  	evening: [
  		'linear-gradient(180deg, #B58D62 0%, #BAAF91 33.33%, #9E8B91 60.94%, rgba(255, 255, 255, 0) 100%), #3B5085',
  		'linear-gradient(180deg, #D57373 0%, rgba(255, 255, 255, 0) 100%), #25A0C7',
